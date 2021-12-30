@@ -8,14 +8,9 @@
 import SwiftUI
 
 struct ResultView: View {
+    @EnvironmentObject var model: VerificationModel
     @State var resultMessage: String?
     var body: some View {
-        Text(resultMessage ?? "Something went wrong")
-    }
-}
-
-struct ResultView_Previews: PreviewProvider {
-    static var previews: some View {
-        ResultView()
+        Text(String(model.smsVerified == true ? "Your phone number is now verified!" : "Something went wrong"))
     }
 }

@@ -12,6 +12,7 @@
 		1B51ECE4277D63B6003F4ABF /* VerifyAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B51ECE3277D63B6003F4ABF /* VerifyAPI.swift */; };
 		1B51ECE8277D6503003F4ABF /* VerifyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B51ECE7277D6503003F4ABF /* VerifyView.swift */; };
 		1B51ECEA277D66DB003F4ABF /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B51ECE9277D66DB003F4ABF /* ResultView.swift */; };
+		1B51ECEE277D70FB003F4ABF /* VerificationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B51ECED277D70FB003F4ABF /* VerificationModel.swift */; };
 		1B82FD5E277D521800310938 /* TwilioSampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B82FD5D277D521800310938 /* TwilioSampleApp.swift */; };
 		1B82FD60277D521800310938 /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B82FD5F277D521800310938 /* StartView.swift */; };
 		1B82FD62277D521900310938 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B82FD61277D521900310938 /* Assets.xcassets */; };
@@ -24,6 +25,7 @@
 		1B51ECE3277D63B6003F4ABF /* VerifyAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyAPI.swift; sourceTree = "<group>"; };
 		1B51ECE7277D6503003F4ABF /* VerifyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyView.swift; sourceTree = "<group>"; };
 		1B51ECE9277D66DB003F4ABF /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
+		1B51ECED277D70FB003F4ABF /* VerificationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerificationModel.swift; sourceTree = "<group>"; };
 		1B82FD5A277D521800310938 /* TwilioSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwilioSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B82FD5D277D521800310938 /* TwilioSampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwilioSampleApp.swift; sourceTree = "<group>"; };
 		1B82FD5F277D521800310938 /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
@@ -71,6 +73,7 @@
 				1B82FD5F277D521800310938 /* StartView.swift */,
 				1B51ECE9277D66DB003F4ABF /* ResultView.swift */,
 				1B51ECE7277D6503003F4ABF /* VerifyView.swift */,
+				1B51ECED277D70FB003F4ABF /* VerificationModel.swift */,
 				1B82FD61277D521900310938 /* Assets.xcassets */,
 				1B82FD63277D521900310938 /* Preview Content */,
 				1B51ECE3277D63B6003F4ABF /* VerifyAPI.swift */,
@@ -222,6 +225,7 @@
 				1B51ECE8277D6503003F4ABF /* VerifyView.swift in Sources */,
 				1B51ECEA277D66DB003F4ABF /* ResultView.swift in Sources */,
 				1B82FD60277D521800310938 /* StartView.swift in Sources */,
+				1B51ECEE277D70FB003F4ABF /* VerificationModel.swift in Sources */,
 				1B82FD5E277D521800310938 /* TwilioSampleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,7 +284,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -335,7 +339,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;

@@ -9,9 +9,10 @@ import SwiftUI
 
 @main
 struct TwilioSampleApp: App {
+    @StateObject var model = VerificationModel()
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView().environmentObject(model)
         }
     }
 }
