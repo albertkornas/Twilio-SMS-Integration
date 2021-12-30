@@ -10,8 +10,10 @@
 		04482386EEAB0D707C65ACD9 /* Pods_TwilioSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D83D0060C98918ACC0294E55 /* Pods_TwilioSample.framework */; };
 		1B51ECE2277D5E7F003F4ABF /* Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1B51ECE1277D5E7F003F4ABF /* Config.plist */; };
 		1B51ECE4277D63B6003F4ABF /* VerifyAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B51ECE3277D63B6003F4ABF /* VerifyAPI.swift */; };
+		1B51ECE8277D6503003F4ABF /* VerifyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B51ECE7277D6503003F4ABF /* VerifyView.swift */; };
+		1B51ECEA277D66DB003F4ABF /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B51ECE9277D66DB003F4ABF /* ResultView.swift */; };
 		1B82FD5E277D521800310938 /* TwilioSampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B82FD5D277D521800310938 /* TwilioSampleApp.swift */; };
-		1B82FD60277D521800310938 /* UserInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B82FD5F277D521800310938 /* UserInput.swift */; };
+		1B82FD60277D521800310938 /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B82FD5F277D521800310938 /* StartView.swift */; };
 		1B82FD62277D521900310938 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B82FD61277D521900310938 /* Assets.xcassets */; };
 		1B82FD65277D521900310938 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B82FD64277D521900310938 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -20,9 +22,11 @@
 		08CCCBD4792DA389F755126A /* Pods-TwilioSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TwilioSample.debug.xcconfig"; path = "Target Support Files/Pods-TwilioSample/Pods-TwilioSample.debug.xcconfig"; sourceTree = "<group>"; };
 		1B51ECE1277D5E7F003F4ABF /* Config.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Config.plist; sourceTree = "<group>"; };
 		1B51ECE3277D63B6003F4ABF /* VerifyAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyAPI.swift; sourceTree = "<group>"; };
+		1B51ECE7277D6503003F4ABF /* VerifyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyView.swift; sourceTree = "<group>"; };
+		1B51ECE9277D66DB003F4ABF /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
 		1B82FD5A277D521800310938 /* TwilioSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwilioSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B82FD5D277D521800310938 /* TwilioSampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwilioSampleApp.swift; sourceTree = "<group>"; };
-		1B82FD5F277D521800310938 /* UserInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInput.swift; sourceTree = "<group>"; };
+		1B82FD5F277D521800310938 /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
 		1B82FD61277D521900310938 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1B82FD64277D521900310938 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D0858F0FD446861CC6A5E86B /* Pods-TwilioSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TwilioSample.release.xcconfig"; path = "Target Support Files/Pods-TwilioSample/Pods-TwilioSample.release.xcconfig"; sourceTree = "<group>"; };
@@ -64,7 +68,9 @@
 			isa = PBXGroup;
 			children = (
 				1B82FD5D277D521800310938 /* TwilioSampleApp.swift */,
-				1B82FD5F277D521800310938 /* UserInput.swift */,
+				1B82FD5F277D521800310938 /* StartView.swift */,
+				1B51ECE9277D66DB003F4ABF /* ResultView.swift */,
+				1B51ECE7277D6503003F4ABF /* VerifyView.swift */,
 				1B82FD61277D521900310938 /* Assets.xcassets */,
 				1B82FD63277D521900310938 /* Preview Content */,
 				1B51ECE3277D63B6003F4ABF /* VerifyAPI.swift */,
@@ -213,7 +219,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				1B51ECE4277D63B6003F4ABF /* VerifyAPI.swift in Sources */,
-				1B82FD60277D521800310938 /* UserInput.swift in Sources */,
+				1B51ECE8277D6503003F4ABF /* VerifyView.swift in Sources */,
+				1B51ECEA277D66DB003F4ABF /* ResultView.swift in Sources */,
+				1B82FD60277D521800310938 /* StartView.swift in Sources */,
 				1B82FD5E277D521800310938 /* TwilioSampleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

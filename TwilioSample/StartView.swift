@@ -11,15 +11,18 @@ struct ContentView: View {
     @State var countryCode: String = ""
     @State var phoneNumber: String = ""
     var body: some View {
-        VStack(alignment: .center, spacing: 10.0) {
-            TextField("Country code", text: $countryCode)
-            TextField("Phone Number", text: $phoneNumber)
-            Button("Send code", action: {
+        NavigationView {
+            VStack(alignment: .center, spacing: 10.0) {
+                TextField("Country code", text: $countryCode)
+                TextField("Phone Number", text: $phoneNumber)
+                NavigationLink(destination: VerifyView(codeInput: "", countryCode: countryCode, phoneNumber: phoneNumber)) {
+                    Text("Send Code")
+                }.simultaneousGesture(TapGesture().onEnded{
                     sendVerificationCode(countryCode, phoneNumber)
+                })
             }
-            )
+            .padding()
         }
-        .padding()
     }
 }
 
